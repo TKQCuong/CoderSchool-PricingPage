@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #051937;
+}
+
+nav {
+    background-color: 	#D3D3D3;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.left-nav {
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 20px;
+    opacity: 0.7;
+}
+nav a {
+    color: black;
+    opacity: 0.5;
+}
+
+.nav {
+    padding-top: 6px;
+}
+
+section {
+    background-color: white;
+    min-height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    
+}
+
+section h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.content {
+    margin: 40px;
+}
+
+.content img {
+    width: 220px;
+    height: 200px;
+}
+
+.dog-card {
+    margin: 40px;
+    min-height: 850px;
+    padding-top: 10%;
+}
+
+.card img {
+    width: 21.8rem;
+    height: 15rem;
+}
+
+form {
+    padding-top: 10%;
+    background-color: rgb(199, 62, 181);
+    min-height: 850px;
+}
+
+form label {
+    font-weight: bold;
+}
